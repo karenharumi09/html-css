@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color:#3ba7a9;
+    text-decoration: none;   /*tira o sublinhado*/
+}
+
+a:visited {
+    color:rgb(109, 109, 173);
+}
+
+a:hover {
+    color:#a733ab;
+}
+
+a:active {
+    color:rgb(181, 89, 193);
+}
+
+.especial {
+    background-color: #c0ebeb;
+}
+
+.especial::before {
+    content: '⇐';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+.especial::after {
+    content: '⇒';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+
+
+/*pseudo-classe*/
+div:hover {
+    color: #3ba7a9;
+}
+
+/*p dentro de div*/
+div > p {
+    display: none;  /*esconde texto*/
+}
+
+div:hover > p {
+    display: block;  /*mostra o texto escondido*/
+    color: #ffffff;
+    background-color: #7eb5b5;
+}

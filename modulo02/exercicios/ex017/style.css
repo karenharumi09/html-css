@@ -1,0 +1,17 @@
+body {
+    font: normal 1rem Arial, Verdana serif;
+    text-align: center;
+}
+
+h1 {
+    font: italic bold 2.5rem 'Times New Roman', Times, serif
+}
+
+h2 {
+    font: italic bold 2rem 'Times New Roman', Times, serif
+}
+
+p {
+    text-align: justify;
+    text-indent: 2rem;
+}
