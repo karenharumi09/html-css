@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 31.25rem;
+        }
+
+        caption {
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 0.625rem;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 0.0625rem solid #000000;
+            padding: 0.625rem
+        }
+
+        thead, tfoot {
+            background-color: #1f1f1f;
+            color: #ffffff;
+        }
+
+        thead > tr > th {
+            position: sticky;   /*relative + fixed*/
+            top: 0;
+            background-color: #1f1f1f;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: #837d7d;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <table>
+        <caption>   <!--Legenda-->
+            População das Unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 10rem">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.298.696</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">1.018.127</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>123.108.705</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum nobis eius tempore, tenetur fugit sequi beatae voluptatibus blanditiis exercitationem nulla molestiae? Dicta minima beatae, minus deserunt culpa omnis quasi soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus placeat possimus maiores fugit hic unde fugiat, pariatur qui nulla repellendus ea molestias facilis facere, sint deleniti vel incidunt similique dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, illum. Illum quam enim odio a nulla voluptatibus, repellat corrupti architecto, fugit adipisci obcaecati veniam doloribus eveniet ratione laborum quis nisi.</p>
+</body>
+</html>
