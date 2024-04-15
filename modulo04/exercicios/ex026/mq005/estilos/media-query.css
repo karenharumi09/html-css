@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 48rem) {
+    #burger {
+        display: none; /*tela pequena aparece menu*/
+    }
+
+    menu {
+        display: block; /*tela grande some menu*/
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    main {
+        width: 48rem; /*mesmo com tela grande, conteúdo não fica fixo*/
+    }
+}
